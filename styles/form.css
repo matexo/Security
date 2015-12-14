@@ -1,0 +1,89 @@
+body {
+    background-color: darkslategray;
+    font-size: 8px;
+
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+table {
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+tr {
+    padding: 5px;
+    min-width: 100px;
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+
+.input {
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    color: darkslategray;
+}
+
+.submit {
+  width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: none;
+}
+
+#passwordStrength {
+    width: 210px;
+    margin: 10px;
+    height: 5px;
+    float: left;
+    display:block;
+}
+
+.strength0 {
+    width:205px;
+    background:#cccccc;
+}
+
+.strength1 {
+    width:40px;
+    background:#ff0000;
+}
+
+.strength2 {
+    width:75px;
+    background:#ff5f5f;
+}
+
+.strength3 {
+    width:150px;
+    background:#56e500;
+}
+
+.strength4 {
+    background: #399800;
+    width: 200px;
+}
+
+.message {
+    min-height: 200px;
+    width: 400px;
+}

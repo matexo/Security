@@ -1,0 +1,86 @@
+body {
+    background-color: darkslategray;
+    font-size: 12px;
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.menuContainer {
+    margin: 0px auto;
+    width: 800px;
+    background-color: black;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    float: left;
+    font-size: 15px;
+    background-color: cadetblue;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.text {
+    width: 800px;
+    margin: 0px auto;
+    background-color: cadetblue;
+    min-height: 600px;
+    border-radius: 20px;
+    border: 2px solid lightsteelblue;
+}
+
+.textBox {
+    margin: 15px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-size: 15px;
+    font-family: monospace;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.textAuthor {
+    position: relative;
+    width: 100px;
+    left: 600px;
+}
+
+.clear {
+    clear: both;
+}
+
+.formBox {
+    margin: 50px auto;
+    background-color: cadetblue;
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+form {
+    margin: 50px auto;
+}
+
+.input {
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    color: darkslategray;
+}
+
+.formInput {
+    width: 300px;
+    font-size: 20px;
+    background-color: black;
+}
